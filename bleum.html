@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BLEUM Flourish — Flowers That Tell Every Story</title>
+<meta name="description" content="Handcrafted floral arrangements for every special moment. Fresh flowers, same day delivery, handmade with love." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="#home" class="logo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <path d="M12 21c0-6 4-9 4-9s-1 6-4 9Z" />
+        <path d="M12 21c0-6-4-9-4-9s1 6 4 9Z" />
+        <path d="M12 12V3" />
+      </svg>
+      <span>BLEUM<small>FLOURISH</small></span>
+    </a>
+
+    <button class="hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M3 6h18M3 12h18M3 18h18" />
+      </svg>
+    </button>
+
+    <nav id="primary-nav" class="nav-links" aria-label="Primary">
+      <a href="#home" aria-current="page">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#wedding">Wedding</a>
+      <a href="#corporate">Corporate</a>
+      <a href="#workshop">Workshop</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#order" class="btn btn-primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 6h15l-1.5 9h-12L6 6Z" />
+          <path d="M6 6 5 3H2" />
+          <circle cx="9.5" cy="20" r="1" />
+          <circle cx="17.5" cy="20" r="1" />
+        </svg>
+        <span class="btn-label-long">Order Bouquet</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" style="width:11px;height:11px">
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </a>
+    </div>
+  </div>
+  <div class="nav-scrim"></div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h1>Flowers That<br />Tell <em>Every Story.</em></h1>
+        <p>Handcrafted floral arrangements for every special moment in your life.</p>
+
+        <div class="hero-actions">
+          <a href="#order" class="btn btn-primary">
+            Order Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+          </a>
+          <a href="#builder" class="btn btn-outline">
+            Custom Bouquet
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+              <path d="M12 21c0-6 4-9 4-9s-1 6-4 9Z" />
+              <path d="M12 21c0-6-4-9-4-9s1 6 4 9Z" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <svg class="icon-rating" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.5 1.3 6.6L12 17.6 6.1 20.5l1.3-6.6L2.5 9.4l6.6-.8L12 2.5Z" />
+            </svg>
+            <div>
+              <strong>4.9 / 5</strong>
+              <span>113+ Reviews</span>
+            </div>
+          </div>
+          <div class="hero-stat">
+            <div>
+              <strong>Fresh Flowers</strong>
+              <span>Daily</span>
+            </div>
+          </div>
+          <div class="hero-stat">
+            <div>
+              <strong>Same Day</strong>
+              <span>Delivery</span>
+            </div>
+          </div>
+          <div class="hero-stat">
+            <div>
+              <strong>Handmade</strong>
+              <span>Arrangement</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <img src="img/hero-bouquet.png" alt="Pink and cream rose bouquet wrapped in beige paper with a BLEUM Flourish card, tied with a satin ribbon" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORY CARDS ============ -->
+  <section class="section categories container reveal" id="shop" aria-label="Shop by occasion">
+    <div class="category-grid">
+      <a class="category-card" href="#shop">
+        <img src="img/cat-birthday.png" alt="Pink and white birthday bouquet with ribbon" loading="lazy" />
+        <div class="category-body">
+          <div>
+            <h3>Birthday</h3>
+            <span>Starting from Rp350.000</span>
+          </div>
+          <span class="category-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </span>
+        </div>
+      </a>
+      <a class="category-card" href="#wedding">
+        <img src="img/cat-wedding.png" alt="White and cream wedding bouquet with greenery" loading="lazy" />
+        <div class="category-body">
+          <div>
+            <h3>Wedding</h3>
+            <span>Starting from Rp650.000</span>
+          </div>
+          <span class="category-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </span>
+        </div>
+      </a>
+      <a class="category-card" href="#shop">
+        <img src="img/cat-graduation.png" alt="White and yellow graduation bouquet wrapped in grey paper" loading="lazy" />
+        <div class="category-body">
+          <div>
+            <h3>Graduation</h3>
+            <span>Starting from Rp350.000</span>
+          </div>
+          <span class="category-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </span>
+        </div>
+      </a>
+      <a class="category-card" href="#shop">
+        <img src="img/cat-anniversary.png" alt="Pink rose anniversary bouquet with ribbon" loading="lazy" />
+        <div class="category-body">
+          <div>
+            <h3>Anniversary</h3>
+            <span>Starting from Rp350.000</span>
+          </div>
+          <span class="category-arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ BOUQUET BUILDER ============ -->
+  <section class="section builder container reveal" id="builder" aria-label="Custom bouquet builder">
+    <div class="builder-panel">
+      <div class="builder-intro">
+        <h2>Custom Bouquet Builder</h2>
+        <p>Design your own bouquet for any occasion.</p>
+        <ol class="builder-steps">
+          <li><span class="step-num">1</span>Choose Occasion</li>
+          <li><span class="step-num">2</span>Choose Flowers</li>
+          <li><span class="step-num">3</span>Wrapping Style</li>
+          <li><span class="step-num">4</span>Greeting Card</li>
+          <li><span class="step-num">5</span>Delivery Date</li>
+        </ol>
+        <button type="button" class="btn btn-primary">
+          Start Building
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+        </button>
+      </div>
+
+      <div class="builder-preview">
+        <img src="img/builder-bouquet.png" alt="Custom pink and white rose bouquet wrapped in beige paper with satin ribbon" loading="lazy" />
+      </div>
+
+      <form class="builder-form" aria-label="Bouquet options">
+        <div class="form-field">
+          <label for="occasion">Occasion</label>
+          <div class="select-wrap">
+            <select id="occasion" class="field-input">
+              <option>Birthday</option>
+              <option>Wedding</option>
+              <option>Graduation</option>
+              <option>Anniversary</option>
+            </select>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label id="flowers-label">Flowers</label>
+          <div class="swatch-row" role="group" aria-labelledby="flowers-label">
+            <button type="button" class="swatch-flower is-selected" aria-pressed="true" aria-label="Sweet blush mix">
+              <img src="img/product-sweet-blush.png" alt="" loading="lazy" />
+            </button>
+            <button type="button" class="swatch-flower" aria-pressed="false" aria-label="White serenity mix">
+              <img src="img/product-white-serenity.png" alt="" loading="lazy" />
+            </button>
+            <button type="button" class="swatch-flower" aria-pressed="false" aria-label="Sunshine mix">
+              <img src="img/product-sunshine.png" alt="" loading="lazy" />
+            </button>
+            <button type="button" class="swatch-flower" aria-pressed="false" aria-label="Love whisper mix">
+              <img src="img/product-love-whisper.png" alt="" loading="lazy" />
+            </button>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label id="wrap-label">Wrapping</label>
+          <div class="swatch-row" role="group" aria-labelledby="wrap-label">
+            <button type="button" class="swatch-color" data-color="tan" aria-pressed="false" aria-label="Tan wrapping"></button>
+            <button type="button" class="swatch-color" data-color="cream" aria-pressed="false" aria-label="Cream wrapping"></button>
+            <button type="button" class="swatch-color is-selected" data-color="sage" aria-pressed="true" aria-label="Sage green wrapping"></button>
+            <button type="button" class="swatch-color" data-color="pink" aria-pressed="false" aria-label="Pink wrapping"></button>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="greeting">Greeting Card</label>
+          <div class="select-wrap">
+            <select id="greeting" class="field-input">
+              <option>Happy Birthday!</option>
+              <option>Congratulations!</option>
+              <option>With Love</option>
+              <option>Get Well Soon</option>
+            </select>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="delivery-date">Delivery Date</label>
+          <input type="date" id="delivery-date" class="field-input" value="2026-05-12" />
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE BLEUM ============ -->
+  <section class="section why-choose reveal" aria-label="Why choose BLEUM">
+    <div class="container">
+      <h2>Why Choose BLEUM</h2>
+      <div class="why-grid">
+        <div>
+          <h3>Fresh Flowers</h3>
+          <p>Bunga segar pilihan<br />datang setiap hari</p>
+        </div>
+        <div>
+          <h3>Same Day Delivery</h3>
+          <p>Pengiriman cepat<br />di hari yang sama</p>
+        </div>
+        <div>
+          <h3>Premium Packaging</h3>
+          <p>Dikemas cantik &amp; aman<br />sampai tujuan</p>
+        </div>
+        <div>
+          <h3>Handmade Arrangement</h3>
+          <p>Dirangkai dengan<br />penuh cinta</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BEST SELLER ============ -->
+  <section class="section container reveal" aria-label="Best sellers">
+    <div class="section-head">
+      <h2>Best Seller</h2>
+      <a href="#shop" class="section-link">
+        View All Products
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+      </a>
+    </div>
+
+    <div class="product-grid">
+      <article class="product-card">
+        <div class="product-media">
+          <img src="img/product-sweet-blush.png" alt="Sweet Blush bouquet of pink and cream roses" loading="lazy" />
+          <button type="button" class="product-add" aria-label="Add Sweet Blush to cart">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14" /></svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <h3>Sweet blush</h3>
+          <div class="product-rating">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span>(26)</span>
+          </div>
+          <div class="product-price">Rp450.000</div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <img src="img/product-white-serenity.png" alt="White Serenity bouquet of white roses" loading="lazy" />
+          <button type="button" class="product-add" aria-label="Add White Serenity to cart">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14" /></svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <h3>White Serenity</h3>
+          <div class="product-rating">
+            <span class="stars" aria-hidden="true">★★★★☆</span>
+            <span>(17)</span>
+          </div>
+          <div class="product-price">Rp650.000</div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <img src="img/product-sunshine.png" alt="Sunshine bouquet of yellow and orange flowers" loading="lazy" />
+          <button type="button" class="product-add" aria-label="Add Sunshine to cart">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14" /></svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <h3>Sunshine</h3>
+          <div class="product-rating">
+            <span class="stars" aria-hidden="true">★★★★☆</span>
+            <span>(31)</span>
+          </div>
+          <div class="product-price">Rp400.000</div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <img src="img/product-love-whisper.png" alt="Love Whisper bouquet of pink roses" loading="lazy" />
+          <button type="button" class="product-add" aria-label="Add Love Whisper to cart">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14" /></svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <h3>Love Whisper</h3>
+          <div class="product-rating">
+            <span class="stars" aria-hidden="true">★★★★☆</span>
+            <span>(26)</span>
+          </div>
+          <div class="product-price">Rp650.000</div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <img src="img/product-pink-romance.png" alt="Pink Romance bouquet of pink and cream roses" loading="lazy" />
+          <button type="button" class="product-add" aria-label="Add Pink Romance to cart">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14" /></svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <h3>Pink Romance</h3>
+          <div class="product-rating">
+            <span class="stars" aria-hidden="true">★★★★☆</span>
+            <span>(19)</span>
+          </div>
+          <div class="product-price">Rp500.000</div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <img src="img/product-pure-love.png" alt="Pure Love bouquet of white and pink flowers" loading="lazy" />
+          <button type="button" class="product-add" aria-label="Add Pure Love to cart">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14" /></svg>
+          </button>
+        </div>
+        <div class="product-info">
+          <h3>Pure Love</h3>
+          <div class="product-rating">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span>(22)</span>
+          </div>
+          <div class="product-price">Rp750.000</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CORPORATE FLORAL SERVICES ============ -->
+  <section class="section container reveal" id="corporate" aria-label="Corporate floral services">
+    <div class="corporate">
+      <div class="corporate-inner">
+        <div class="corporate-copy">
+          <h2>Corporate Floral Services</h2>
+          <p>Tingkatkan suasana tempat kerja atau event Anda dengan rangkaian bunga profesional dari kami.</p>
+          <a href="#contact" class="btn btn-outline">
+            Request Quotation
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </a>
+        </div>
+        <div class="corporate-services">
+          <div class="corporate-service">
+            <span class="icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V6l8-3 8 3v15" /><path d="M9 21v-6h6v6" /><path d="M9 10h.01M15 10h.01M9 14h.01M15 14h.01" /></svg>
+            </span>
+            Hotels
+          </div>
+          <div class="corporate-service">
+            <span class="icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3v7a2 2 0 0 0 4 0V3M8 10v11M18 3c-2 1-2 4-2 6s.5 3 2 3v9" /></svg>
+            </span>
+            Restaurants
+          </div>
+          <div class="corporate-service">
+            <span class="icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M6 21V4h8v17M14 9h4v12M9 8h.01M9 12h.01M9 16h.01" /></svg>
+            </span>
+            Offices
+          </div>
+          <div class="corporate-service">
+            <span class="icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="8" r="3" /><circle cx="17" cy="9" r="2.5" /><path d="M3 20c0-3 2.5-5 6-5s6 2 6 5M15 15.2c2.8.3 4.5 2 4.5 4.8" /></svg>
+            </span>
+            Events
+          </div>
+          <div class="corporate-service">
+            <span class="icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12a9 9 0 1 1-3.5-7.1" /><path d="M21 3v6h-6" /></svg>
+            </span>
+            Weekly Subscription
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section container reveal" aria-label="Customer testimonials">
+    <div class="testimonials-head">
+      <h2>What Our Customers Say</h2>
+    </div>
+
+    <div class="testimonials-layout">
+      <div class="testi-carousel">
+        <button type="button" class="testi-nav" aria-label="Previous testimonials">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 6-6 6 6 6" /></svg>
+        </button>
+
+        <div class="testi-track">
+          <article class="testi-card">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <p>Rangkaian bunganya cantik banget! Sesuai request dan pengirimannya tepat waktu. Highly recommended!</p>
+            <div class="testi-person">
+              <img src="img/insta-1.png" alt="" loading="lazy" />
+              <span>Ananda Putri</span>
+            </div>
+          </article>
+          <article class="testi-card">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <p>Pelayanan ramah, bunga fresh dan tahan lama. Pasti akan order lagi untuk next event.</p>
+            <div class="testi-person">
+              <img src="img/insta-2.png" alt="" loading="lazy" />
+              <span>Dewi Lestari</span>
+            </div>
+          </article>
+          <article class="testi-card">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <p>Packaging-nya premium banget, detailnya rapi dan sangat memuaskan!</p>
+            <div class="testi-person">
+              <img src="img/insta-3.png" alt="" loading="lazy" />
+              <span>Rizky Pratama</span>
+            </div>
+          </article>
+        </div>
+
+        <button type="button" class="testi-nav" aria-label="Next testimonials">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 6 6 6-6 6" /></svg>
+        </button>
+      </div>
+
+      <div class="insta-block">
+        <span class="insta-handle">@bleum.flourish</span>
+        <div class="insta-grid">
+          <a href="#" aria-label="View Instagram post"><img src="img/insta-1.png" alt="Bouquet photo from BLEUM Flourish Instagram" loading="lazy" /></a>
+          <a href="#" aria-label="View Instagram post"><img src="img/insta-2.png" alt="Bouquet photo from BLEUM Flourish Instagram" loading="lazy" /></a>
+          <a href="#" aria-label="View Instagram post"><img src="img/insta-3.png" alt="Bouquet photo from BLEUM Flourish Instagram" loading="lazy" /></a>
+          <a href="#" aria-label="View Instagram post"><img src="img/insta-4.png" alt="Bouquet photo from BLEUM Flourish Instagram" loading="lazy" /></a>
+          <a href="#" aria-label="View Instagram post"><img src="img/insta-5.png" alt="Bouquet photo from BLEUM Flourish Instagram" loading="lazy" /></a>
+          <a href="#" aria-label="View Instagram post"><img src="img/insta-6.png" alt="Bouquet photo from BLEUM Flourish Instagram" loading="lazy" /></a>
+        </div>
+        <a href="#" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
+          Follow Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M12 21c0-6 4-9 4-9s-1 6-4 9Z" />
+          <path d="M12 21c0-6-4-9-4-9s1 6 4 9Z" />
+          <path d="M12 12V3" />
+        </svg>
+        <span>BLEUM<small>FLOURISH</small></span>
+      </a>
+      <p>Your trusted florist in Bekasi. Handcrafted flowers for every special moment.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
+        </a>
+        <a href="#" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20l1.3-4A8 8 0 1 1 9 19l-5 1Z" /><path d="M9 10.5c.3 1.6 2 3.3 3.6 3.6" /></svg>
+        </a>
+        <a href="#" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 4v11a3.5 3.5 0 1 1-3-3.46" /><path d="M14 4c.5 2 2 3.6 4 4" /></svg>
+        </a>
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 8h2V4h-2a4 4 0 0 0-4 4v2H9v4h2v6h3v-6h2.5l.5-4H14V9c0-.6.4-1 1-1Z" /></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="footer-col" aria-label="Quick links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#wedding">Wedding</a></li>
+        <li><a href="#corporate">Corporate</a></li>
+        <li><a href="#workshop">Workshop</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-label="Customer service">
+      <h4>Customer Service</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Delivery Information</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul class="footer-contact">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11Z" /><circle cx="12" cy="10" r="2.5" /></svg>
+          <span>Ruko Grand Galaxy Blok RGB No.32 Lt 2, Grand Galaxy City, Bekasi</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 5c0 8 7 15 15 15l3-4-6-3-2 2c-2-1-4-3-5-5l2-2-3-6-4 3Z" /></svg>
+          <span>0851 1753 5688</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 7 9 6 9-6" /></svg>
+          <span>hello@bleumflourish.com</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 3" /></svg>
+          <span>09.00 - 22.00 (Everyday)</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col newsletter">
+      <h4>Newsletter</h4>
+      <p>Dapatkan info promo &amp; update terbaru dari kami.</p>
+      <form class="newsletter-form" aria-label="Subscribe to newsletter">
+        <label for="newsletter-email" class="visually-hidden">Email address</label>
+        <input type="email" id="newsletter-email" placeholder="Your email address" required />
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    &copy; 2024 BLEUM Flourish. All Rights Reserved.
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7" /></svg>
+    </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
